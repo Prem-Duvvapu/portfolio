@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
+import Pre from './components/Pre';
+import ScrollToTop from './components/ScrollToTop';
 import { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
-  Router,
+  Route,
   Routes,
   Navigate
 } from "react-router-dom";
@@ -22,9 +24,9 @@ function App() {
 
   return (
     <Router>
-      <Preloader load={load} />
+      <Pre load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        {/* <Navbar /> */}
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />

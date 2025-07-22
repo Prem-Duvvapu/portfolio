@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai"
-import { FaLinkedIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Home2 = () => {
     return (
@@ -65,7 +65,7 @@ const Home2 = () => {
 
                     <Col md={4} className="myAvatar">
                         <Tilt>
-                            <img src={myImg} className="img-fluid" alt="avatar" />
+                            {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
                         </Tilt>
                     </Col>
                 </Row>
@@ -101,7 +101,7 @@ const Home2 = () => {
                                     rel = "noreferrer"
                                     className = "icon-color home-social-icons"
                                 >
-                                    <FaLinkedIn />
+                                    <FaLinkedinIn />
                                 </a>
                             </li>
                         </ul>
