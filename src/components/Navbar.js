@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { CgFileDocument } from "react-icons/cg";
 
 const NavBar = () => {
     const [expand, setExpand] = useState(false);

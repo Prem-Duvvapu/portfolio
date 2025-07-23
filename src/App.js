@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
+import ResumeNew from './components/Resume/ResumeNew';
 import Pre from './components/Pre';
+import NavBar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import { useEffect, useState } from 'react';
 import {
@@ -26,10 +28,12 @@ function App() {
     <Router>
       <Pre load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {/* <Navbar /> */}
+        <NavBar />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<ResumeNew />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
