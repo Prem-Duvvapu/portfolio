@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 import ResumeNew from './components/Resume/ResumeNew';
 import Pre from './components/Pre';
 import NavBar from './components/Navbar';
@@ -32,6 +33,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/resume" element={<ResumeNew />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

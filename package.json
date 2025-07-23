@@ -11,6 +11,7 @@
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
+    "react-github-calendar": "^4.5.9",
     "react-icons": "^4.10.1",
     "react-parallax-tilt": "^1.7.301",
     "react-pdf": "^5.7.2",
