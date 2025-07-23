@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa";
+import myImg from "../../Assets/avatar.png"
 
 const Home2 = () => {
     return (
@@ -13,7 +14,7 @@ const Home2 = () => {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
 
-                        <p className="home-aobut-body">
+                        <p className="home-about-body">
                             I fell in love with programming and I havve at least learn something, I think...
 
                             <br />
@@ -65,7 +66,7 @@ const Home2 = () => {
 
                     <Col md={4} className="myAvatar">
                         <Tilt>
-                            {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
+                            <img src={myImg} className="img-fluid" alt="avatar" />
                         </Tilt>
                     </Col>
                 </Row>

@@ -14,6 +14,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import "./style.css"
 
 function App() {
   const [load, setLoad] = useState(true);
