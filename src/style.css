@@ -257,7 +257,8 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  background-color: black;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -321,6 +322,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  background-color: black;
 }
 
 .home-about-description {
@@ -448,7 +451,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: black;
 }
 
 .project-card {
@@ -547,6 +551,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  background-color: black;
   color: white !important;
 }
 
@@ -606,7 +611,8 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: black;
   color: white !important;
 }
 

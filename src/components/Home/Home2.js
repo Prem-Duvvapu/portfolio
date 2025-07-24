@@ -15,23 +15,14 @@ const Home2 = () => {
                         </h1>
 
                         <p className="home-about-body">
-                            I fell in love with programming and I have at least learn something, I think...
+                            I’m a <i><b className="purple">full-stack developer</b></i> skilled in <b className="purple">Java</b>, <b className="purple">Ruby</b>, <b className="purple">Golang</b>, and <b className="purple">SQL</b>, with experience in <b className="purple">Spring Boot</b> and <b className="purple">Ruby on Rails</b>.
 
                             <br />
                             <br />
 
-                            I'm fluent in classics like <i><b className="purple">Java, Golang, Javascript.</b></i>
-
-                            <br />
-                            <br />
-
-                            My field of Interest's are building new <i><b className="purple">Web Technologies and Products</b> and also in areas realted to {" "}<b className="purple">Blockchain.</b></i>
-
-                            <br />
-                            <br />
-
-                            Whenever possible, I also apply my passion for developing Products with <b className="purple">Node.js</b> and<i><b className="purple">{" "}Modern Javascript Library and Frameworks</b></i> like <i><b className="purple">React.js</b></i>
+                            I build modern UIs using <b className="purple">React.js</b> and <b className="purple">Tailwind CSS</b>, and deploy applications with <b className="purple">Docker</b>, <b className="purple">Kubernetes</b>, <b className="purple">GitHub Actions</b>, <b className="purple">AWS</b>, <b className="purple">Jenkins</b>, <b className="purple">New Relic</b>, and <b className="purple">CloudWatch</b>.
                         </p>
+
                     </Col>
 
                     <Col md={4} className="myAvatar">

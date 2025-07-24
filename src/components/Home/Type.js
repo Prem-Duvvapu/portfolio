@@ -5,8 +5,7 @@ const Type = () => {
         <TypeWriter 
             options = {{
                 strings: [
-                    "Software Developer",
-                    "Freelancer",
+                    "Software Engineer",
                 ],
                 autoStart: true,
                 loop: true,

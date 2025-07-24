@@ -39,7 +39,6 @@ const ResumeNew = () => {
                     </Document>
                 </Row>
 
-
             </Container>
         </div>
     );
