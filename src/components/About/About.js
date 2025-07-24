@@ -2,9 +2,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
-import Github from "./Github";
+// import Github from "./Github";
 import AboutCard from "./AboutCard";
-import laptopImg from "../../Assets/about.png"
+import laptopImg from "../../Assets/about.png";
 
 const About = () => {
     return (

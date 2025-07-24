@@ -589,6 +589,7 @@ button:focus {
 .quote-card-view {
   border: none !important;
   color: white !important;
+  font-size: 1.2em !important;
   background-color: transparent !important;
 }
 

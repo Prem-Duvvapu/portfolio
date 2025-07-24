@@ -1,11 +1,11 @@
 import { Button, Card } from "react-bootstrap";
-import { CgWebsite } from "react-icons/cg";
+// import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 const ProjectCard = (props) => {
     return (
         <Card className="project-card-view">
-            <Card.Tmg  variant="top" src={props.imgPath} alt="card-img" />
+            <Card.Img  variant="top" src={props.imgPath} alt="card-img" />
             <Card.Body>
                 <Card.Title>
                     {props.title}
@@ -20,9 +20,9 @@ const ProjectCard = (props) => {
                     {props.isBlog ? "Blog" : "Github"}
                 </Button>
                 {"\n"}
-                {"]n"}
+                {"\n"}
 
-                {!props.isBlog && props.demoLink && (
+                {/* {!props.isBlog && props.demoLink && (
                     <Button
                         variant="primary"
                         href={props.demoLink}
@@ -32,7 +32,7 @@ const ProjectCard = (props) => {
                         <CgWebsite />
                         {"Demo"}
                     </Button>
-                )}
+                )} */}
             </Card.Body>
         </Card>
     );
