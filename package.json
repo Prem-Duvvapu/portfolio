@@ -16,7 +16,7 @@
     "react-icons": "^4.10.1",
     "react-parallax-tilt": "^1.7.301",
     "react-pdf": "^5.7.2",
-    "react-router-dom": "^7.7.0",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "typewriter-effect": "^2.22.0",
