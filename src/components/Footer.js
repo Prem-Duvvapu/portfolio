@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 
 const Footer = () => {
@@ -39,6 +40,28 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                             >
                                 <FaLinkedinIn />
+                            </a>
+                        </li>
+
+                        <li className="social-icons">
+                            <a
+                                href="https://leetcode.com/u/prem_duvvapu/"
+                                style={{ color: "white" }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <SiLeetcode />
+                            </a>
+                        </li>
+
+                        <li className="social-icons">
+                            <a
+                                href="https://codeforces.com/profile/prem_duvvapu"
+                                style={{ color: "white" }}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <SiCodeforces />
                             </a>
                         </li>
                     </ul>
