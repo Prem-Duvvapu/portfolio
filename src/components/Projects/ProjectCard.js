@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
                     {props.description}
                 </Card.Text>
 
-                <Button variant="primary" href={props.ghLink} target="_blank">
+                <Button variant="primary" href={props.ghLink} target="_blank" rel="noopener noreferrer">
                     <BsGithub />
                     {props.isBlog ? "Blog" : "Github"}
                 </Button>

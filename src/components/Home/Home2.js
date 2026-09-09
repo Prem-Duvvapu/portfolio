@@ -45,7 +45,7 @@ const Home2 = () => {
                                 <a
                                     href = "https://github.com/Prem-Duvvapu/"
                                     target = "_blank"
-                                    rel = "noreferrer"
+                                    rel = "noopener noreferrer"
                                     className = "icon-color home-social-icons"
                                 >
                                     <AiFillGithub />
@@ -56,7 +56,7 @@ const Home2 = () => {
                                 <a
                                     href = "https://www.linkedin.com/in/prem-duvvapu/"
                                     target = "_blank"
-                                    rel = "noreferrer"
+                                    rel = "noopener noreferrer"
                                     className = "icon-color home-social-icons"
                                 >
                                     <FaLinkedinIn />

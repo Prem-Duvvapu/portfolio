@@ -1,25 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import logo from "../Assets/logo.png";
 
 const NavBar = () => {
     const [expand, setExpand] = useState(false);
     const [navColour, setNavColour] = useState(false);
 
-    function scrollHandler() {
-        if (window.scrollY >= 20) {
-            setNavColour(true);
-        } else {
-            setNavColour(false);
+    useEffect(() => {
+        function scrollHandler() {
+            setNavColour(window.scrollY >= 20);
         }
-    }
 
-    window.addEventListener("scroll", scrollHandler);
+        window.addEventListener("scroll", scrollHandler);
+        return () => window.removeEventListener("scroll", scrollHandler);
+    }, []);
 
     return (
         <Navbar
@@ -30,7 +28,7 @@ const NavBar = () => {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} alt="logo" className="logo" />
+                    Prem Duvvapu
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -42,8 +40,8 @@ const NavBar = () => {
                     <span></span>
                     <span></span>
                 </Navbar.Toggle>
-                <Navbar.Collapse id="responsive-navbar-env">
-                    <Nav className="ms-auto" defaultActiveky="#home">
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
                                 <AiOutlineHome style={{ marginBottom: "2px" }} />Home
