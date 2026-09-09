@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -11,15 +11,14 @@ const NavBar = () => {
     const [expand, setExpand] = useState(false);
     const [navColour, setNavColour] = useState(false);
 
-    function scrollHandler() {
-        if (window.scrollY >= 20) {
-            setNavColour(true);
-        } else {
-            setNavColour(false);
+    useEffect(() => {
+        function scrollHandler() {
+            setNavColour(window.scrollY >= 20);
         }
-    }
 
-    window.addEventListener("scroll", scrollHandler);
+        window.addEventListener("scroll", scrollHandler);
+        return () => window.removeEventListener("scroll", scrollHandler);
+    }, []);
 
     return (
         <Navbar
@@ -42,8 +41,8 @@ const NavBar = () => {
                     <span></span>
                     <span></span>
                 </Navbar.Toggle>
-                <Navbar.Collapse id="responsive-navbar-env">
-                    <Nav className="ms-auto" defaultActiveky="#home">
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
                                 <AiOutlineHome style={{ marginBottom: "2px" }} />Home
