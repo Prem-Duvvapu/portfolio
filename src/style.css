@@ -631,6 +631,16 @@ button:focus {
   justify-content: center;
 }
 
+.resume-frame {
+  width: 100%;
+  max-width: 900px;
+  height: 80vh;
+  min-height: 500px;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+}
+
 .resume-left {
   padding-right: 80px !important;
 }
