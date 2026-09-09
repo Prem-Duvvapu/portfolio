@@ -20,12 +20,12 @@ const AboutCard = () => {
                     <br />
                     <br />
 
-                    I’m currently working as an <span className="purple">SDE-1 Backend Engineer</span> at <span className="purple">Osfin</span>, building rollback flows, reconciliation scheduling, and notification systems for financial data pipelines.
+                    I’m currently working as an <span className="purple">SDE-1 Backend Engineer</span> at <span className="purple">Osfin</span>, a fintech reconciliation automation platform, where I design rollback flows for datasets of up to 1 crore (10M+) records, manage Quartz Scheduler triggers across 120 reconciliation batch jobs, and build multi-channel notification systems — while triaging 50+ production incidents on-call.
 
                     <br />
                     <br />
 
-                    Before that, I worked as a <span className="purple">Software Development Engineer</span> at <span className="purple">Vegrow</span>, a fast-growing supply-chain startup, where I built APIs, microservices, and infrastructure to manage real-world operations at scale.
+                    Before that, I worked as a <span className="purple">Software Development Engineer</span> at <span className="purple">Vegrow</span>, a B2B agritech marketplace for fruits, where I built APIs and microservices in Ruby on Rails and Golang to manage supply chain operations at scale.
 
                     <br />
                     <br />

@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 import myImg from "../../Assets/avatar.png"
 
 const Home2 = () => {
@@ -60,6 +61,28 @@ const Home2 = () => {
                                     className = "icon-color home-social-icons"
                                 >
                                     <FaLinkedinIn />
+                                </a>
+                            </li>
+
+                            <li className="social-icons">
+                                <a
+                                    href = "https://leetcode.com/u/prem_duvvapu/"
+                                    target = "_blank"
+                                    rel = "noopener noreferrer"
+                                    className = "icon-color home-social-icons"
+                                >
+                                    <SiLeetcode />
+                                </a>
+                            </li>
+
+                            <li className="social-icons">
+                                <a
+                                    href = "https://codeforces.com/profile/prem_duvvapu"
+                                    target = "_blank"
+                                    rel = "noopener noreferrer"
+                                    className = "icon-color home-social-icons"
+                                >
+                                    <SiCodeforces />
                                 </a>
                             </li>
                         </ul>
