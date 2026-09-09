@@ -20,7 +20,12 @@ const AboutCard = () => {
                     <br />
                     <br />
 
-                    I’ve worked as a <span className="purple">Full-Stack Software Development Engineer</span> at <span className="purple">Vegrow</span>, a fast-growing startup, for <span className="purple">one year</span>, where I contributed to building scalable web applications and solving real-world problems.
+                    I’m currently working as an <span className="purple">SDE-1 Backend Engineer</span> at <span className="purple">Osfin</span>, building rollback flows, reconciliation scheduling, and notification systems for financial data pipelines.
+
+                    <br />
+                    <br />
+
+                    Before that, I worked as a <span className="purple">Software Development Engineer</span> at <span className="purple">Vegrow</span>, a fast-growing supply-chain startup, where I built APIs, microservices, and infrastructure to manage real-world operations at scale.
 
                     <br />
                     <br />

@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import { 
+import {
     DiJava,
     DiGo,           // Golang
     DiJavascript1,  // JavaScript
@@ -7,11 +7,12 @@ import {
 } from "react-icons/di";
 
 import {
-    SiMysql,         // SQL (MySQL)
-    SiRubyonrails,   // Ruby on Rails
-    SiSpringboot,    // Spring Boot
-    SiReact,         // React.js
-    SiTailwindcss    // Tailwind CSS
+    SiMysql,           // SQL (MySQL)
+    SiRubyonrails,     // Ruby on Rails
+    SiSpringboot,      // Spring Boot
+    SiSpring,          // Spring Framework (Batch/Integration/Cloud)
+    SiSpringsecurity,  // Spring Security
+    SiHibernate        // Hibernate
 } from "react-icons/si";
 
 
@@ -47,11 +48,15 @@ const Techstack = () => {
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">
-                <SiReact />
+                <SiSpring />
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">
-                <SiTailwindcss />
+                <SiSpringsecurity />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiHibernate />
             </Col>
         </Row>
     )

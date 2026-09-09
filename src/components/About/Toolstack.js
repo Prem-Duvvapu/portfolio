@@ -8,6 +8,7 @@ import {
     SiDocker,
     SiGithubactions,
     SiKubernetes,
+    SiJenkins,
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -43,6 +44,10 @@ const Toolstack = () => {
             
             <Col xs={4} md={2} className="tech-icons">
                 <SiKubernetes />
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <SiJenkins />
             </Col>
         </Row>
     );
