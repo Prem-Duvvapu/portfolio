@@ -5,7 +5,6 @@ import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import logo from "../Assets/logo.png";
 
 const NavBar = () => {
     const [expand, setExpand] = useState(false);
@@ -29,7 +28,7 @@ const NavBar = () => {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} alt="logo" className="logo" />
+                    Prem Duvvapu
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
