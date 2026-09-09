@@ -15,12 +15,12 @@ const Home2 = () => {
                         </h1>
 
                         <p className="home-about-body">
-                            I’m a <i><b className="purple">full-stack developer</b></i> skilled in <b className="purple">Java</b>, <b className="purple">Ruby</b>, <b className="purple">Golang</b>, and <b className="purple">SQL</b>, with experience in <b className="purple">Spring Boot</b> and <b className="purple">Ruby on Rails</b>.
+                            I’m a <i><b className="purple">backend software engineer</b></i> skilled in <b className="purple">Java</b>, <b className="purple">JavaScript</b>, <b className="purple">Golang</b>, and <b className="purple">SQL</b>, with experience across the <b className="purple">Spring</b> ecosystem — <b className="purple">Spring Boot</b>, <b className="purple">Spring Batch</b>, <b className="purple">Spring Data JPA</b>, <b className="purple">Spring Security</b>, <b className="purple">Spring Integration</b>, and <b className="purple">Spring Cloud</b> — along with <b className="purple">Hibernate</b>, <b className="purple">Quartz Scheduler</b>, and <b className="purple">Ruby on Rails</b>.
 
                             <br />
                             <br />
 
-                            I build modern UIs using <b className="purple">React.js</b> and <b className="purple">Tailwind CSS</b>, and deploy applications with <b className="purple">Docker</b>, <b className="purple">Kubernetes</b>, <b className="purple">GitHub Actions</b>, <b className="purple">AWS</b>, <b className="purple">Jenkins</b>, <b className="purple">New Relic</b>, and <b className="purple">CloudWatch</b>.
+                            I deploy and operate services with <b className="purple">Docker</b>, <b className="purple">Kubernetes</b>, <b className="purple">GitHub Actions</b>, <b className="purple">AWS</b>, and <b className="purple">Jenkins</b>.
                         </p>
 
                     </Col>
