@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode, SiCodeforces } from "react-icons/si";
-import myImg from "../../Assets/avatar.png"
+import myImg from "../../Assets/PremDuvvapu.png"
 
 const Home2 = () => {
     return (
