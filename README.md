@@ -2,9 +2,20 @@
   Portfolio Website
 </h1>
 
+<p align="center">
+  <a href="https://portfolio-rho-beryl-41.vercel.app">portfolio-rho-beryl-41.vercel.app</a>
+</p>
+
 ## About
 
-My personal portfolio — featuring my experience, GitHub projects, resume, and technical skills.
+My personal portfolio — built to showcase my experience as a **Backend Software Engineer** (currently SDE-1 at **Osfin**, previously SDE at **Vegrow**), my real GitHub projects, my resume, and my technical skills (Java, Golang, JavaScript, SQL, the Spring ecosystem, Ruby on Rails, Docker, Kubernetes, AWS).
+
+## Sections
+
+- **About** — bio, education, and current/previous work experience
+- **Projects** — [lld-with-ui](https://github.com/Prem-Duvvapu/lld-with-ui), [dsa-with-ui](https://github.com/Prem-Duvvapu/dsa-with-ui), [cs-fundamentals-with-ui](https://github.com/Prem-Duvvapu/cs-fundamentals-with-ui), and [sde-interview-loop](https://github.com/Prem-Duvvapu/sde-interview-loop)
+- **Resume** — downloadable/viewable CV
+- **Social links** — GitHub, LinkedIn, LeetCode, Codeforces
 
 ## Built With
 
