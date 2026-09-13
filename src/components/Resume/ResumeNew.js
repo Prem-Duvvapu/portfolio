@@ -25,7 +25,7 @@ const ResumeNew = () => {
 
                 <Row className="resume">
                     <iframe
-                        src={`${pdf}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                        src={`${pdf}#toolbar=0&navpanes=0&view=FitH`}
                         title="Prem Duvvapu Resume"
                         className="resume-frame"
                     />
